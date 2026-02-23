@@ -4,8 +4,11 @@ A simple Python-based encryption and decryption tool that transforms readable te
 
 This project demonstrates core concepts of:
 Character mapping
+
 Randomization
+
 Symmetric encryption logic
+
 Python string handling
 
 
@@ -27,10 +30,15 @@ Lightweight and beginner-friendly
 
 The program creates a list of characters including:
 Uppercase letters
+
 Lowercase letters
+
 Numbers
+
 Symbols
+
 Spaces
+
 Chars = "  " + string.ascii_letters + string.digits + string.punctuation
 
 2️ Key Generation
@@ -42,14 +50,21 @@ This shuffled list acts as the encryption key.
 
 3️ Encryption Process
 The program asks the user to enter a message.
+
 Each character in the message is replaced with its corresponding shuffled character.
+
 The result becomes the encrypted message (ciphertext).
 
 4️ Decryption Process
+
 The encrypted text is entered.
+
 The program finds each character in the shuffled key.
+
 It maps it back to the original character list.
+
 The original message is restored.
+
 
 🚀 How To Run The Project
 Step 1: Clone the Repository
@@ -62,11 +77,16 @@ python your_filename.py
 Make sure Python is installed on your system.
 
 ⚠️ Limitations
-❌ The encryption key changes every time the program runs.
-❌ You must encrypt and decrypt within the same session.
-❌ Not suitable for real-world secure communication.
-❌ No persistent key storage.
-❌ No error handling for unsupported characters.
+
+The encryption key changes every time the program runs.
+
+ You must encrypt and decrypt within the same session.
+
+ Not suitable for real-world secure communication.
+
+ No persistent key storage.
+
+No error handling for unsupported characters.
 
 This project is designed for learning purposes only.
 📚 What This Project Teaches
