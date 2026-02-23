@@ -1,4 +1,5 @@
 🔐 Simple Encryption & Decryption Program (Python)
+
 A simple Python-based encryption and decryption tool that transforms readable text into encrypted ciphertext and restores it back using a shuffled character key.
 
 This project demonstrates core concepts of:
